@@ -4,9 +4,9 @@ import Checkbox from 'expo-checkbox'; // Use expo-checkbox if you're using Expo
 
 export default function App() {
   const [todos, setTodos] = useState([
-    { id: '1', text: '   Buy groceries', checked: false },
-    { id: '2', text: '   Walk the dog', checked: false },
-    { id: '3', text: '   Finish project', checked: false },
+    { id: '1', text: '   Code CS 3105 exercise', checked: false },
+    { id: '2', text: '   Code more CS 3105 exercises', checked: false },
+    { id: '3', text: '   Finish CS 3105 exercise 2', checked: false },
   ]);
   const [newTodo, setNewTodo] = useState(''); // State for new item input
 
